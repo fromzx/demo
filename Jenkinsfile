@@ -20,7 +20,7 @@ pipeline {
 
       }
       steps {
-        sh 'mvn clean  -gs `pwd`/configuration/settings.xml test'
+        sh 'pwd'
       }
     }
 
